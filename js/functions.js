@@ -6,8 +6,8 @@ function IngresoDeUsuario() {
 
 function elegirSuscripcion() {
     alert('Presiona "Aceptar" para desplegar nuestros planes de suscripción mensual')
-    let elegirSuscripcion = prompt('Elige tu suscripción: \n 1-Everyday \n 2-Simple \n 3-Doble Shot')
-    switch (elegirSuscripcion){
+    let tipoDeSuscripcion = prompt('Elige tu suscripción: \n 1-Everyday \n 2-Simple \n 3-Doble Shot')
+    switch (tipoDeSuscripcion){
         case '1':
             alert('¡Felicitaciones por su suscripción' + nombreUsuario + '! \n El total de su compra es de $690')
             break
@@ -25,8 +25,8 @@ function elegirSuscripcion() {
 
 function elegirBolsa() {
     alert('Presiona "Aceptar" para comprar nuestros cafes de especialidad')
-    let elegirBolsa = prompt('Elige tu café: \n 1-Brasil Crucera \n 2-Etiopía Najá \n 3-Guatemala GTA')
-    switch (elegirBolsa) {
+    let tipoDeBolsa = prompt('Elige tu café: \n 1-Brasil Crucera \n 2-Etiopía Najá \n 3-Guatemala GTA')
+    switch (tipoDeBolsa) {
         case '1':
             alert('¡Felicitaciones por su compra' + nombreUsuario + '! \n El total de su compra es de $550')
             break
